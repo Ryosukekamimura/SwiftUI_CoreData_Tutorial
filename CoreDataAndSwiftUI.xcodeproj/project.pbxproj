@@ -14,6 +14,8 @@
 		921D6B3A24B44AE000D35247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921D6B3924B44AE000D35247 /* Assets.xcassets */; };
 		921D6B3D24B44AE000D35247 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921D6B3C24B44AE000D35247 /* Preview Assets.xcassets */; };
 		921D6B4024B44AE000D35247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921D6B3E24B44AE000D35247 /* LaunchScreen.storyboard */; };
+		921D6B4924B44B3700D35247 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D6B4724B44B3700D35247 /* User+CoreDataClass.swift */; };
+		921D6B4A24B44B3700D35247 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D6B4824B44B3700D35247 /* User+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		921D6B3C24B44AE000D35247 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		921D6B3F24B44AE000D35247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		921D6B4124B44AE000D35247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		921D6B4724B44B3700D35247 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		921D6B4824B44B3700D35247 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				921D6B3924B44AE000D35247 /* Assets.xcassets */,
 				921D6B3E24B44AE000D35247 /* LaunchScreen.storyboard */,
 				921D6B4124B44AE000D35247 /* Info.plist */,
+				921D6B4724B44B3700D35247 /* User+CoreDataClass.swift */,
+				921D6B4824B44B3700D35247 /* User+CoreDataProperties.swift */,
 				921D6B3424B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld */,
 				921D6B3B24B44AE000D35247 /* Preview Content */,
 			);
@@ -151,8 +157,10 @@
 			files = (
 				921D6B3124B44ADD00D35247 /* AppDelegate.swift in Sources */,
 				921D6B3624B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld in Sources */,
+				921D6B4A24B44B3700D35247 /* User+CoreDataProperties.swift in Sources */,
 				921D6B3824B44ADD00D35247 /* ContentView.swift in Sources */,
 				921D6B3324B44ADD00D35247 /* SceneDelegate.swift in Sources */,
+				921D6B4924B44B3700D35247 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
