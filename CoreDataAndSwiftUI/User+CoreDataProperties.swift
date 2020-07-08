@@ -18,8 +18,12 @@ extension User {
     }
 
     @NSManaged public var admin: Bool
-    @NSManaged public var userId: String?
-    @NSManaged public var nickname: String?
-    @NSManaged public var password: String?
+    @NSManaged public var userId: String
+    @NSManaged public var nickname: String
+    @NSManaged public var password: String
 
+}
+
+extension User: Identifiable{
+    
 }

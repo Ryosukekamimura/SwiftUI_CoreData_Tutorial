@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9208E6BC24B531450008EA92 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6BB24B531450008EA92 /* CoreDataModel.swift */; };
+		9208E6BE24B538B70008EA92 /* NSPersistentCloudKitContainer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6BD24B538B70008EA92 /* NSPersistentCloudKitContainer+Extension.swift */; };
+		9208E6C024B5425E0008EA92 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6BF24B5425E0008EA92 /* UserListViewModel.swift */; };
+		9208E6C224B5457E0008EA92 /* UserRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6C124B5457E0008EA92 /* UserRegisterViewModel.swift */; };
+		9208E6C424B5492F0008EA92 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6C324B5492F0008EA92 /* UserListView.swift */; };
+		9208E6C624B54AC10008EA92 /* UserListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6C524B54AC10008EA92 /* UserListRow.swift */; };
+		9208E6C824B54BF30008EA92 /* UserRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9208E6C724B54BF30008EA92 /* UserRegisterView.swift */; };
 		921D6B3124B44ADD00D35247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D6B3024B44ADD00D35247 /* AppDelegate.swift */; };
 		921D6B3324B44ADD00D35247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D6B3224B44ADD00D35247 /* SceneDelegate.swift */; };
 		921D6B3624B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 921D6B3424B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9208E6BB24B531450008EA92 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		9208E6BD24B538B70008EA92 /* NSPersistentCloudKitContainer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSPersistentCloudKitContainer+Extension.swift"; sourceTree = "<group>"; };
+		9208E6BF24B5425E0008EA92 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		9208E6C124B5457E0008EA92 /* UserRegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewModel.swift; sourceTree = "<group>"; };
+		9208E6C324B5492F0008EA92 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		9208E6C524B54AC10008EA92 /* UserListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRow.swift; sourceTree = "<group>"; };
+		9208E6C724B54BF30008EA92 /* UserRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterView.swift; sourceTree = "<group>"; };
 		921D6B2D24B44ADD00D35247 /* CoreDataAndSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataAndSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921D6B3024B44ADD00D35247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		921D6B3224B44ADD00D35247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +57,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9208E6C924B54FA60008EA92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9208E6C324B5492F0008EA92 /* UserListView.swift */,
+				9208E6C524B54AC10008EA92 /* UserListRow.swift */,
+				9208E6C724B54BF30008EA92 /* UserRegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9208E6CA24B54FCE0008EA92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9208E6BB24B531450008EA92 /* CoreDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9208E6CB24B54FD70008EA92 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9208E6BF24B5425E0008EA92 /* UserListViewModel.swift */,
+				9208E6C124B5457E0008EA92 /* UserRegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		921D6B2424B44ADD00D35247 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +103,9 @@
 		921D6B2F24B44ADD00D35247 /* CoreDataAndSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9208E6CB24B54FD70008EA92 /* ViewModel */,
+				9208E6CA24B54FCE0008EA92 /* Model */,
+				9208E6C924B54FA60008EA92 /* View */,
 				921D6B3024B44ADD00D35247 /* AppDelegate.swift */,
 				921D6B3224B44ADD00D35247 /* SceneDelegate.swift */,
 				921D6B3724B44ADD00D35247 /* ContentView.swift */,
@@ -70,6 +114,7 @@
 				921D6B4124B44AE000D35247 /* Info.plist */,
 				921D6B4724B44B3700D35247 /* User+CoreDataClass.swift */,
 				921D6B4824B44B3700D35247 /* User+CoreDataProperties.swift */,
+				9208E6BD24B538B70008EA92 /* NSPersistentCloudKitContainer+Extension.swift */,
 				921D6B3424B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld */,
 				921D6B3B24B44AE000D35247 /* Preview Content */,
 			);
@@ -158,7 +203,14 @@
 				921D6B3124B44ADD00D35247 /* AppDelegate.swift in Sources */,
 				921D6B3624B44ADD00D35247 /* CoreDataAndSwiftUI.xcdatamodeld in Sources */,
 				921D6B4A24B44B3700D35247 /* User+CoreDataProperties.swift in Sources */,
+				9208E6C624B54AC10008EA92 /* UserListRow.swift in Sources */,
 				921D6B3824B44ADD00D35247 /* ContentView.swift in Sources */,
+				9208E6C224B5457E0008EA92 /* UserRegisterViewModel.swift in Sources */,
+				9208E6C024B5425E0008EA92 /* UserListViewModel.swift in Sources */,
+				9208E6C824B54BF30008EA92 /* UserRegisterView.swift in Sources */,
+				9208E6BE24B538B70008EA92 /* NSPersistentCloudKitContainer+Extension.swift in Sources */,
+				9208E6C424B5492F0008EA92 /* UserListView.swift in Sources */,
+				9208E6BC24B531450008EA92 /* CoreDataModel.swift in Sources */,
 				921D6B3324B44ADD00D35247 /* SceneDelegate.swift in Sources */,
 				921D6B4924B44B3700D35247 /* User+CoreDataClass.swift in Sources */,
 			);
